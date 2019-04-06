@@ -1,6 +1,6 @@
 
 @@ -0,0 +1,20 @@
-class Dog
+class Person
 
    def name=(name)
     @name = name
