@@ -1,15 +1,9 @@
 class Dog
-  def initialize(name, breed)
-    @name = name
-    @breed = breed
+  def name (dog_name)
+    @this_dogs_name = dog_name
   end
 
-  def dog = (name_breed)
-    name, breed = name_breed.split
-    @name = name
-    @breed = breed
+  def name
+    @this_dogs_name
   end
-  def dog
-    "#{@name} #{@breed}".strip
-
 end
